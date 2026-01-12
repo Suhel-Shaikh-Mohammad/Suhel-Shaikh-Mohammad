@@ -1,0 +1,88 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # -----------------------------
+      # Checkout
+      # -----------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # -----------------------------
+      # GitHub Stats (transparent)
+      # Repo: anuraghazra/github-readme-stats
+      # -----------------------------
+      - name: Generate GitHub stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Suhel-Shaikh-Mohammad
+          output_dir: generated
+          theme: transparent
+          show_icons: true
+          include_all_commits: true
+          count_private: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # -----------------------------
+      # Contribution Snake (normal)
+      # Repo: Platane/snk
+      # -----------------------------
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Suhel-Shaikh-Mohammad
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # -----------------------------
+      # LOC + Contribution Breakdown
+      # Repo: lowlighter/metrics
+      # -----------------------------
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: Suhel-Shaikh-Mohammad
+          template: classic
+          base: activity, community, repositories
+
+          # Contribution calendar & breakdown
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: all
+
+          # LOC & languages
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines
+          plugin_languages_limit: 8
+
+          # Visual config
+          config_timezone: Asia/Kolkata
+          config_display: large
+          config_output: svg
+
+      # -----------------------------
+      # Commit & Push all generated assets
+      # -----------------------------
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add generated dist metrics.svg
+          git commit -m "chore: update profile assets" || exit 0
+          git push
