@@ -24,24 +24,11 @@ jobs:
       - name: Add neon border to SVGs
         run: |
           for file in dist/*.svg; do
-            awk '
-            NR==1 {
-              print
-              print "<defs>"
-              print "<filter id=\"glow\">"
-              print "<feGaussianBlur stdDeviation=\"4\" result=\"blur\"/>"
-              print "<feMerge>"
-              print "<feMergeNode in=\"blur\"/>"
-              print "<feMergeNode in=\"SourceGraphic\"/>"
-              print "</feMerge>"
-              print "</filter>"
-              print "</defs>"
-              print "<rect x=\"2\" y=\"2\" width=\"98%\" height=\"98%\" rx=\"14\" ry=\"14\" fill=\"none\" stroke=\"#00ff88\" stroke-width=\"3\" filter=\"url(#glow)\"/>"
-              next
-            }
-            { print }
-            ' "$file" > tmp.svg && mv tmp.svg "$file"
+            perl -0777 -i -pe '
+              s|<svg([^>]*)>|<svg$1>\n<defs>\n<filter id="glow">\n<feGaussianBlur stdDeviation="4" result="blur"/>\n<feMerge>\n<feMergeNode in="blur"/>\n<feMergeNode in="SourceGraphic"/>\n</feMerge>\n</filter>\n</defs>\n<rect x="2" y="2" width="98%" height="98%" rx="14" ry="14" fill="none" stroke="#00ff88" stroke-width="3" filter="url(#glow)"/>|'
+              "$file"
           done
+
 
 
       - name: Commit and push
