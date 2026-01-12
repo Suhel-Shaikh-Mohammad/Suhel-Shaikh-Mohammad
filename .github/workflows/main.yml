@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,20 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake animation
+      - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Suhel-Shaikh-Mohammad
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Push generated files
+      - name: Add neon border to SVGs
+        run: |
+          for file in dist/*.svg; do
+            sed -i 's/<svg/<svg style="background:#000000" /' $file
+            sed -i 's/<svg/<svg><rect x="1" y="1" width="99%" height="99%" rx="14" ry="14" fill="none" stroke="#00ff88" stroke-width="3" filter="url(#glow)"/' $file
+            sed -i 's/<svg>/<svg><defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>/' $file
+          done
+
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
           add: "dist"
-          message: "chore: update contribution snake"
+          message: "chore: update snake with neon border"
           default_author: github_actions
