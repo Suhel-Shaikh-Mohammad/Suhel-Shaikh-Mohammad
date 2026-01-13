@@ -37,11 +37,11 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://github.com/Suhel-Shaikh-Mohammad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Suhel-Shaikh-Mohammad" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/suhel786/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/suhel786/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/32165538/suhel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/32165538/suhel" height="30" width="40" /></a>
-<a href="https://hackerrank.com/https://www.hackerrank.com/profile/juug22btech42343" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/juug22btech42343" height="30" width="40" /></a>
-<a href="https://leetcode.com/https://leetcode.com/u/Suhel-Shaikh-Mohammad/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/Suhel-Shaikh-Mohammad/" height="30" width="40" /></a>
+<a href="https://github.com/Suhel-Shaikh-Mohammad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Suhel-Shaikh-Mohammad" height="50" width="50" /></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/suhel786/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/suhel786/" height="50" width="50" /></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://stackoverflow.com/users/32165538/suhel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/32165538/suhel" height="50" width="50" /></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.hackerrank.com/profile/juug22btech42343" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/juug22btech42343" height="50" width="50" /></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://leetcode.com/u/Suhel-Shaikh-Mohammad/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/Suhel-Shaikh-Mohammad/" height="50" width="50" /></a>
 </p>
 <hr/>
 
