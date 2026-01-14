@@ -14,13 +14,13 @@
 "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."  
 — Patrick McKenzie
 </em>
-<br/>
+<br/><br/>
 
 <!-- <p align='right'>
     <img src="https://github-readme-stats-suhel-shaikh-mohammads-projects.vercel.app/api/top-langs/?username=Suhel-Shaikh-Mohammad&layout=compact&theme=github_dark&hide_border=true&v=1" />
 </p> -->
     
-<div align='left'>
+<div align='center'>
     
   🔭 Currently working on <b>React-based Frontend Projects</b>
     
@@ -31,27 +31,24 @@
   💬 Ask me about <b>React, Node.js, Express.js, Python, YOLOv8</b><br/>
   
 </div>
+</div>
 <hr/>
 
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=python,c,java,html,css,javascript,typescript" /><br>
     <img src="https://skillicons.dev/icons?i=git,mysql,php,firebase,mongodb,express,react,nodejs,tailwind,nextjs,github" /><br>
-    
 </div>
-
 <hr/>
 
 > [!TIP]
 > Have a look at my portfolio: <a href="https://suhel-shaikh-mohammad.vercel.app/" target='blank'> My Showcase </a>
 
-<hr/>
-
 > [!IMPORTANT]
+> 
 > Recuriter or a Employer? <a href="https://drive.google.com/file/d/1uBLhqAAej1R4L9P1TOgd7huoQW_g2XgZ/view?usp=sharing" download> Download My Resume </a>
 
 <hr/>
-
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://github.com/Suhel-Shaikh-Mohammad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Suhel-Shaikh-Mohammad" height="50" width="50" /></a> &nbsp;&nbsp;&nbsp;&nbsp;
