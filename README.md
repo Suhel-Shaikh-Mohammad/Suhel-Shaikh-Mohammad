@@ -57,7 +57,7 @@
 ## GitHub Metrics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Suhel-Shaikh-Mohammad/Suhel-Shaikh-Mohammad/main/metrics.svg" />
+  <img src="https://raw.githubusercontent.com/Suhel-Shaikh-Mohammad/Suhel-Shaikh-Mohammad/main/github-metrics.svg" />
 </p>
 <hr/>
 
