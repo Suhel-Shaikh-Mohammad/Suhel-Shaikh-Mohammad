@@ -24,8 +24,7 @@ jobs:
           config_background: dark
 
           # ---- Contribution calendar ----
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar: no
 
           # ---- Contribution breakdown ----
           plugin_activity: yes
