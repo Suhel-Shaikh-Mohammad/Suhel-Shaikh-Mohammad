@@ -3,9 +3,9 @@
 <div align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Saira&weight=500&size=30&pause=1000&color=17FF5B&background=FFFFFF00&center=true&repeat=false&width=900&height=50&lines=%F0%9F%A4%97+Hey+There%2C+Thanks+for+Stopping+By!+%F0%9F%A4%97" alt="Typing SVG" />
 </div>
-<div align="center">
+<!-- <div align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Saira&weight=500&size=30&pause=1000&color=27E600&background=FFFFFF00&center=true&repeat=false&width=700&height=50&lines=%F0%9F%8C%B1+Welcome+to+My+Digital+Garden+%F0%9F%8C%B1" alt="Typing SVG" />
-</div> 
+</div>  -->
 <hr/>
 
 <div align="center">
