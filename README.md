@@ -66,12 +66,12 @@
 </p>
 <hr/>
 
-## Contribution Activity
 
-<div align="center">
+<!-- <div align="center">
+## Contribution Activity
   <img src="https://raw.githubusercontent.com/Suhel-Shaikh-Mohammad/Suhel-Shaikh-Mohammad/main/dist/github-contribution-grid-snake-dark.svg" />
 </div>
-<hr/>
+<hr/> -->
 
 <details>
   <summary><b> Click to Check My Overall Stats </b></summary>
